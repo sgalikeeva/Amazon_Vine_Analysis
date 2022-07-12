@@ -3,7 +3,7 @@
 The purpose of this analysis is to analyze a dataset, perform the ETL process and then determine if there is any bias in the dataset.
 
 ## Results
-I chose the jewelry dataset from the Amazon Vine program. I used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. The using PySpark, I analyzed the data determine if there is any bias toward favorable reviews from Vine members in the dataset.
+I chose the jewelry dataset from the Amazon Vine program. I used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then using PySpark, I analyzed the data determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
 #### How many Vine reviews and non-Vine reviews were there?
 There were 20 Vine reviews and 7067 non-Vine reviews.
